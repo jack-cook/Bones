@@ -1,0 +1,14 @@
+ext.dependenciesVersion = [
+        retrofit2 : '2.3.0',
+        retrofit_adapter_rxjava2 : '2.3.0',
+        retrofit_converter_gson : '2.3.0',
+        rxjava2 : '2.+',
+        rxjava2_android : '2.+',
+        glide4 : '4.2.0',
+        glide4Compiler : '4.2.0',
+        butterKnife : '8.8.1',
+        butterKnifeCompiler : '8.8.1',
+        eventBus : '3.0.0',
+        jodaTime : '2.+',
+        support_constraint : '1.+'
+]

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-    package="cn.okayj.bones">
+    package="cn.okayj.bones.app">
 
     <application
         android:allowBackup="true"

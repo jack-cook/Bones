@@ -1,0 +1,21 @@
+apply from: "gradlePlugins/androidConfig.gradle"
+apply from: "gradlePlugins/dependenciesVersion.gradle"
+ext.myDependencies =
+        [
+                retrofit:"com.squareup.retrofit2:retrofit:${dependenciesVersion.retrofit2}",
+                retrofit_adapter_rxjava:"com.squareup.retrofit2:adapter-rxjava2:${dependenciesVersion.retrofit_adapter_rxjava2}",
+                retrofit_converter_gson:"'com.squareup.retrofit2:converter-gson:${dependenciesVersion.retrofit_converter_gson}",
+                rxjava:"io.reactivex.rxjava2:rxjava:${dependenciesVersion.rxjava2}",
+                rxjava_android:"'io.reactivex.rxjava2:rxandroid:${dependenciesVersion.rxjava2_android}",
+                glide4:"com.github.bumptech.glide:glide:${dependenciesVersion.glide4}",
+                glide4Compiler:"com.github.bumptech.glide:compiler:${dependenciesVersion.glide4Compiler}",
+                butterKnife:"com.jakewharton:butterknife:${dependenciesVersion.butterKnife}",
+                butterKnifeCompiler:"com.jakewharton:butterknife-compiler:${dependenciesVersion.butterKnifeCompiler}",
+                eventBus:"org.greenrobot:eventbus:${dependenciesVersion.eventBus}",
+                jodaTime:"joda-time:joda-time:${dependenciesVersion.jodaTime}",
+                support_recyclerview:"com.android.support:recyclerview-v7:${SUPPORT_LIBIRARY_VERSION}",
+                support_appCompact:"com.android.support:appcompat-v7:${SUPPORT_LIBIRARY_VERSION}",
+                support_design:"com.android.support:design:${SUPPORT_LIBIRARY_VERSION}",
+                support_annotations:"com.android.support:support-annotations:${SUPPORT_LIBIRARY_VERSION}",
+                support_constraint:"com.android.support.constraint:constraint-layout:${dependenciesVersion.support_constraint}"
+        ];

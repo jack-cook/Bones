@@ -1,0 +1,4 @@
+dependencies {
+    compile "com.jakewharton:butterknife:${dependenciesVersion.butterKnife}"
+    compile "com.jakewharton:butterknife-compiler:${dependenciesVersion.butterKnifeCompiler}"
+}

@@ -12,11 +12,17 @@ buildscript {
     }
 }
 
+apply from: 'gradlePlugins/androidConfig.gradle'
+apply from: 'gradlePlugins/dependencies.gradle'
+
 allprojects {
     repositories {
         jcenter()
+        mavenCentral()
+        maven { url 'https://maven.google.com' }
     }
 }
+
 
 task clean(type: Delete) {
     delete rootProject.buildDir
